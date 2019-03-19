@@ -6,7 +6,7 @@ type tree struct {
 }
 
 func Sort(values []int) {
-	var root * tree
+	var root *tree
 	for _, v := range values {
 		root = add(root, v)
 	}
